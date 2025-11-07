@@ -1,0 +1,38 @@
+Python 
+--------
+>> It is high level, interpreted and general-purpose programming language.
+human written --> programming language  ---> machine code(000 1110001 11)
+
+Compilation
+------------
+>> Translating the entire source code into machine code in one go.
+Ex: Java,C...
+
+Interpretation
+----------------
+Translating and executing linne by line.
+Ex: Python
+
+Command to execute Python File --> python filemane.py
+
+Syntax:
+-------
+>> It is case-sensitive(a is not A)
+>> Indentation Matters.(white spaces)
+
+Comments 
+---------
+>> It is used to increase readability.
+# ---> single line comment
+'''  ''' ---> multi line comments
+
+Writing First Code 
+--------------------
+print(data) --> print is used to display data at the output.
+
+Datatype 
+------------
+Integers--> whole numbers
+Float---> Decimal 
+String--> collection of charwrapped with '' or "". Ex: "leo"
+Boolean --> True, False

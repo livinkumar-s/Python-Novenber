@@ -30,9 +30,37 @@ Writing First Code
 --------------------
 print(data) --> print is used to display data at the output.
 
+Prompt Input
+-------------
+input()--> prompts input from user. It will always return String.
+
+Variables
+-------------
+A variable is a name that stores a value in a memory.
+var=value.
+
+Rules:
+---------
+>> variables can contain only letters _ - numerics.
+>> Variable name should start with letters or _
+>> cannot use reserved keyword.
+
+
+
 Datatype 
 ------------
 Integers--> whole numbers
-Float---> Decimal 
-String--> collection of charwrapped with '' or "". Ex: "leo"
+Float---> Decimal numbers
+
+String--> collection of char wrapped with '' or "". Ex: "leo".
+Concatination ---> str1 + str2
+
 Boolean --> True, False
+
+Type casting
+-------------
+>> Datatype conversion
+int(val)
+str(val)
+float(val)
+bool(val)

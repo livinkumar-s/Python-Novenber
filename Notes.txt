@@ -45,8 +45,6 @@ Rules:
 >> Variable name should start with letters or _
 >> cannot use reserved keyword.
 
-
-
 Datatype 
 ------------
 Integers--> whole numbers
@@ -64,3 +62,54 @@ int(val)
 str(val)
 float(val)
 bool(val)
+
+Operators
+---------
+>> Operators are symbols or keywords that performs operations on values or variables.
+
+4+5=9  ---> + -->Operator. 4,5 --> Operands. 9 --> result
+
+Arithmetic
+-----------
++ -> Add
+- -> Sub
+* -> Mul 
+/ -> Div 
+// -> Floor Division
+% -> Mod (Reminder).
+**  --> Exponentiation.
+
+Comparison Operators (Boolean)
+----------------------
+==
+!=
+<
+>
+<=
+>=
+
+Logical Operators (Boolean)
+------------------
+AND --> and
+OR --> or
+NOT --> not
+
+Assignment Operators
+--------------------
+= --> assign
++= --> add and assign
+-= --> sub assign
+*= mul assign
+/= div assign
+//= floor div assign
+%= mod assign 
+**= expo assign
+
+Bitwise Operator
+-----------------
+AND --> & --> and operation between bits.
+OR --> | --> or operation between bits.
+X-or --> ^ --> ex-or operation between bits.(same --> 0, diff --> 1)
+Not 
+Left Shift 
+Right Shift

@@ -18,7 +18,7 @@ Command to execute Python File --> python filemane.py
 Syntax:
 -------
 >> It is case-sensitive(a is not A)
->> Indentation Matters.(white spaces)
+>> Indentation Matters.(white spaces that defines a block of code)
 
 Comments 
 ---------
@@ -110,6 +110,59 @@ Bitwise Operator
 AND --> & --> and operation between bits.
 OR --> | --> or operation between bits.
 X-or --> ^ --> ex-or operation between bits.(same --> 0, diff --> 1)
-Not 
-Left Shift 
-Right Shift
+Not --> ~ -->inverting bits. ~8 (~n=-(n+1))
+Left Shift --> << moving bits towards left. Ex: 5<<2
+Right Shift--> >> moving bits towards right. 
+
+
+Control Flow
+---------------
+1)Conditional Clause
+----------------------
+>> It is used to make decisions in program.
+
+if
+---
+syntax:
+--------
+if condition:
+    block of code
+
+if the condition is True --> execute the code. False--> it will skip the block of code
+
+else
+----
+syntax 
+--------
+else:
+    block of 
+when if condition is True --> skip. False --> Execute.
+
+Elif
+------
+syntax:
+-----------
+if
+
+elif condition:
+    block of code
+
+else
+
+mark--> input
+
+O --> >90
+A+ --> 81-90
+A --> 71-80
+B --> 61-70
+C -->50-70
+Fail --> <50
+
+Nested If Block 
+---------------
+if cond1:
+    if cond2:
+        block of code
+
+2)Loops
+----------

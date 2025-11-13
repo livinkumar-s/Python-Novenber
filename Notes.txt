@@ -114,6 +114,19 @@ Not --> ~ -->inverting bits. ~8 (~n=-(n+1))
 Left Shift --> << moving bits towards left. Ex: 5<<2
 Right Shift--> >> moving bits towards right. 
 
+Sequence (Iterable Obj)
+---------
+to find length--> len(obj)
+
+>>An iterable object is any object that can return its element one by one.
+>> String, List, Tuple, Dict.....
+
+"Hello world" --> 'w'
+using index numbers--> that starts with 0
+
+iterObj[ind]--> specific member
+
+
 
 Control Flow
 ---------------
@@ -166,3 +179,30 @@ if cond1:
 
 2)Loops
 ----------
+>> It allows us to repeat a block of code multiple times without writing it manually.
+
+For loop 
+While loop
+
+While Loop 
+-------------
+Syntax:
+---------
+while condition:
+    block of code
+
+>> repeats block of code until the condition becomes false.
+
+For 
+-----
+>> to iretare over a sequence.
+syntax 
+---------
+for varName in sequence:
+    block of 
+    
+Temporary Iterable Object ---> range()
+
+range(len) --> range(9) --> [0,1,2,3,4]
+range(start, end) --> range(3,8) --> [3,4,5,6,7]
+range(start, end, steps) --> range(3,20,2)--> [3,5,7,9,11,13,15,17,19]

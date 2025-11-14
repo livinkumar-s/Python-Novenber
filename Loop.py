@@ -64,12 +64,57 @@
 # for i in range(100):
 #     print(i)
 
-secret=33
+# secret=33
 
-while True:
-    guessed_value=int(input("Guess the 2 digit number: "))
-    if guessed_value==secret:
-        print("You got it!")
-        break
-    else:
-        print("Try again!")
+# while True:
+#     guessed_value=int(input("Guess the 2 digit number: "))
+#     if guessed_value==secret:
+#         print("You got it!")
+#         break
+#     else:
+#         print("Try again!")
+
+# i  -->[1,2,3,4,5]
+# j  -->[1,2,3,4,5]
+
+# for i in range(1,6):
+#     for j in range(1,6):
+#         if i+j==6:
+#             print("* ",end="")
+#         elif i==j:
+#             print("* ",end='')
+#         else:
+#             print("  ",end="")
+#     print()
+
+# for i in range(1,6):
+#     for j in range(1,6):
+#         if j==1:
+#             print("* ",end="")
+#         elif j==5:
+#             print("* ",end='')
+#         elif i==j and i<=3:
+#             print("* ",end='')
+#         elif i+j==6 and i<=3:
+#             print("* ",end='')
+#         else:
+#             print("  ",end="")
+#     print()
+
+size=int(input("Enter odd size: ")) #5
+
+for i in range(1,size+1): #6
+    for j in range(1,size+1):
+        if j==1:
+            print("* ",end="")
+        elif j==size:
+            print("* ",end='')
+        elif i==j and i<=(size+1)/2:
+            print("* ",end='')
+        elif i+j==size+1 and i<=(size+1)/2:
+            print("* ",end='')
+        else:
+            print("  ",end="")
+    print()
+
+# * * * * * 

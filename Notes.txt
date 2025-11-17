@@ -117,14 +117,25 @@ Right Shift--> >> moving bits towards right.
 Sequence (Iterable Obj)
 ---------
 to find length--> len(obj)
-
 >>An iterable object is any object that can return its element one by one.
 >> String, List, Tuple, Dict.....
-
 "Hello world" --> 'w'
 using index numbers--> that starts with 0
-
 iterObj[ind]--> specific member
+
+Indexing 
+---------
+>> Accessing members of an iterable object using index number.
+Ex: a="Hello world" a[7]
+Negative Indexing --> -1 --> last element
+
+Slicing 
+---------
+>> Extracts part of iterable object.
+iterObj[start:end]
+iterObj[start:]
+iterObj[:end]
+iterObj[::finalind]
 
 
 
@@ -198,6 +209,7 @@ For
 -----
 >> when the number of iteration is known.
 >> to iretare over a sequence.
+
 syntax 
 ---------
 for varName in sequence:
@@ -214,3 +226,22 @@ control statements
 break --> used to break the loop.
 continue --> used to skip the current iteration.
 
+Datastructures 
+----------------
+List (sequence)
+-----
+>> Ordered collection of items. Mutable. duplicates are allowed.
+
+Syntax: [ele1, ele2, ele3.....]
+
+In built methods
+-------------------
+.append() --> adds element at the end.
+.extend([]) --> adds multiple elements at the end.
+.insert(ind,ele)
+.remove(ele) --> by mentioning ele. First occur.
+.pop(ind) --> by mentioning ind.
+.index(ele) --> index number
+.count(ele)  ---> no of occur 
+.sort() --> arrangeing list elements
+.reverse()  --> reverse a list

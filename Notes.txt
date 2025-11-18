@@ -244,4 +244,49 @@ In built methods
 .index(ele) --> index number
 .count(ele)  ---> no of occur 
 .sort() --> arrangeing list elements
-.reverse()  --> reverse a list
+.reverse()  --> reverse a 
+
+Tuple
+-----
+>> Immutable. Iterable. Ordered
+>> ()
+
+in built methods
+----------------
+.index(ele) --> index number
+.count(ele)  ---> no of occur 
+
+Packing/Unpacking
+-------------------
+person=("john",45)
+
+name=person[0]
+age=person[1]
+
+name,age=person
+
+Set 
+----
+>> {}
+unordered.
+No Duplicates.
+Mutable
+
+in built methods 
+-------------------
+.add(ele)
+.clear()
+.union(set)
+.intersection(set)
+.difference(set)
+
+Dictionary 
+---------------
+>> {key1:val1, key2:val2.....}
+>> Mutable.
+
+In built methods 
+-----------------
+.keys() ---> list of keys
+.values() ---> list of values
+.items() --->[(key,val),(key,val)....]

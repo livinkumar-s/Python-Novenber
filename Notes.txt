@@ -290,3 +290,35 @@ In built methods
 .keys() ---> list of keys
 .values() ---> list of values
 .items() --->[(key,val),(key,val)....]
+
+Functions
+------------
+>> It is a set of reusable code that performs specific task.
+>> Inbuilt, User defined.
+
+Syntax:
+-----------
+def fnName():
+    block of code 
+
+calling ---> fnName()
+
+P ---> Variable You create in a function while defining it.
+A ---> values you pass to parameters.
+
+Positional Argument
+--------------------
+order matters
+
+Keyword Argument
+-----------------
+order does not matter
+
+Default parameter
+--------------------
+parameters with default value
+
+Variable length arguement 
+-------------------------
+*par --> arguements as tuple
+

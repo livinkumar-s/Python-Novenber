@@ -28,13 +28,13 @@
 
 # name("Good evening ","Anything")
 
-def findSum(*a): #kwargs
-    # ans=0
-    # for i in a:
-    #     ans=ans+i
-    print(sum(a))
+# def findSum(*a): #kwargs
+#     # ans=0
+#     # for i in a:
+#     #     ans=ans+i
+#     print(sum(a))
 
-findSum(23,43,546,56,5443,43)
+# findSum(23,43,546,56,5443,43)
 
 # def dummy(a,b):
 #     print(a+b)
@@ -48,3 +48,25 @@ findSum(23,43,546,56,5443,43)
 # print(ans)
 
 # print(1)
+
+# def sayHello():
+#     print("Hello")
+#     print("Hi")
+#     return "Returned String"
+#     print("Good Morning")
+#     print("Good Afternoon")
+
+
+# a=sayHello()
+# print(sayHello()+" Is this one...!")
+
+# def addNum(a,b):
+#     return a+b 
+
+# print(addNum(9,addNum(4,addNum(5,5))))
+
+# print("")
+# input()
+# int()
+
+# print(type(9)) #<class 'int'>

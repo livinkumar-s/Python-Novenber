@@ -322,3 +322,7 @@ Variable length arguement
 -------------------------
 *par --> arguements as tuple
 
+Return keyword 
+----------------
+>> Stop a function
+>> Return a data to the caller

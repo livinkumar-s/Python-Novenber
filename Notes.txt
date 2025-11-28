@@ -51,7 +51,40 @@ Integers--> whole numbers
 Float---> Decimal numbers
 
 String--> collection of char wrapped with '' or "". Ex: "leo".
+
+>> Indexed.(iterable)
+>> Immutable
+
+String Operations 
+------------------
 Concatination ---> str1 + str2
+Repetetion ---> str * num
+Membership ---> in, not in.
+
+In Built Functions 
+------------------
+.upper() --> converts into uppercase
+.lower() --> converts into lowercase
+.title() --> converts into titlecase
+
+.find(subStr) --> index number (-1 not found)
+.count(subStr)
+
+.isDigit() --> "123" True
+.isalpha()
+.isalnum()
+
+.replace("old","new")
+
+.split('sep char')--> converts string into list.
+.join(iter Object) --> iterObj into String
+
+.strip() ---> removes whitespaces at begenning and ending 
+
+Fotmatted String 
+-------------------
+Ex: f"{var1} {var2}..."
+
 
 Boolean --> True, False
 
@@ -326,3 +359,4 @@ Return keyword
 ----------------
 >> Stop a function
 >> Return a data to the caller
+

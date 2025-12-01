@@ -360,3 +360,27 @@ Return keyword
 >> Stop a function
 >> Return a data to the caller
 
+Errors
+--------
+Errors are issues that stops program from executing.
+
+Syntax Errors 
+---------------
+Errors in structure of the code.
+Ex: print("Hello"
+It will stop the execution before running.
+Ex: IndentationError, SyntaxError
+
+Runtime Errors(Exceptions)
+--------------------------
+Errors that occurs during the runtime.
+Ex: ZeroDivisionError, TypeError
+
+try:
+    block code 
+except errorName:
+    block of code
+finally:
+    block of code
+
+Logical Errors 

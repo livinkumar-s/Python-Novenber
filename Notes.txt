@@ -384,3 +384,33 @@ finally:
     block of code
 
 Logical Errors 
+
+
+OOP 
+----
+>> Object Oriented Programming is a pattern based on the concept of objects.
+
+Object   -->  16GB RAM, 1TB --> poweer ON, Power OFF, Open File
+(Laptop)       (Data)            (Functions)
+
+Object   -->  180CM, 72kg --> run, walk, talk
+(person)       (Data)            (Functions)
+
+In python 
+---------
+Blue print 
+(class)
+|
+|
+|
+Object ---> data(attributes) --> functions (methods)
+
+blueprint ---> multiple object 
+
+class cat --> cat1, cat2, cat3......
+
+Creating Class 
+----------------
+def ClassName:
+    def __init__():
+        mention the attributes
